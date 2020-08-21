@@ -33,6 +33,7 @@ const text = {
   },
   p1: {
     fontSize: 16,
+    lineHeight: 28,
   },
   p2: {
     fontSize: 14,
