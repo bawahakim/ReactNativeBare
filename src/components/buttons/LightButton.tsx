@@ -1,7 +1,7 @@
 import React, { FC, useContext } from 'react';
 import { Button, ThemeContext, ButtonProps } from 'react-native-elements';
 
-const AppButton: FC<ButtonProps> = ({ ...otherProps }) => {
+const LightButton: FC<ButtonProps> = ({ ...otherProps }) => {
   const { theme } = useContext(ThemeContext);
   return (
     <Button
@@ -15,4 +15,4 @@ const AppButton: FC<ButtonProps> = ({ ...otherProps }) => {
     />
   );
 };
-export default AppButton;
+export default LightButton;
