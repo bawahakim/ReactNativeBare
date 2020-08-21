@@ -1,11 +1,11 @@
 import i18n, { Resource } from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-import common_en from './src/translations/en/common.json';
-import routes_en from './src/translations/en/routes.json';
+import common_en from './translations/en/common.json';
+import routes_en from './translations/en/routes.json';
 
-import common_fr from './src/translations/fr/common.json';
-import routes_fr from './src/translations/fr/routes.json';
+import common_fr from './translations/fr/common.json';
+import routes_fr from './translations/fr/routes.json';
 
 const resources = {
   en: {
